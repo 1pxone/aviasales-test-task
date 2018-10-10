@@ -25,7 +25,7 @@ class Ticket extends Component {
         return (
             <div className="Ticket">
                 <div className="Ticket__buyBlock">
-                    <img src={`/img/carriers/${t.carrier}.png`} className="Ticket__carrier" alt={t.carrier}/>
+                    <img src={`https://hlebbobulka.github.io/aviasales-test-task/img/carriers/${t.carrier}.png`} className="Ticket__carrier" alt={t.carrier}/>
                     <button type="button" className="Ticket__buyButton">Купить <br/> за {this.currencyConverter(t.price)}</button>
                 </div>
                 <div className="Ticket__infoBlock">
@@ -37,7 +37,7 @@ class Ticket extends Component {
                             {stopsFormat(t.stops)}
                             <div className="Ticket__stopsWrap">
                                 <div className="Ticket__stopsLine"></div>
-                                <img src={`/img/plane.svg`}  alt={t.carrier}/>
+                                <img src={`https://hlebbobulka.github.io/aviasales-test-task/img/plane.svg`}  alt={t.carrier}/>
                             </div>
                         </div>
                         <div className="Ticket__destination">

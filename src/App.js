@@ -28,7 +28,7 @@ class App extends Component {
             return (
                 <div className="container">
                     <div className="logo__wrapper">
-                        <img src="/img/logo.png" alt="logo"/>
+                        <img src="https://hlebbobulka.github.io/aviasales-test-task/img/logo.png" alt="logo"/>
                     </div>
                     <div className="content__wrapper">
                         <Filters currency={this.props.currency}/>
